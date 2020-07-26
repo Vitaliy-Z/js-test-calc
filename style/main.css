@@ -12,6 +12,10 @@ p {
   width: 370px;
   margin: 30px auto;
   text-align: center;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
 }
 
 .userName,
@@ -20,6 +24,10 @@ p {
 .multiply,
 .split {
   margin-bottom: 30px;
+
+  @media screen and (min-width: 480px) {
+    margin-bottom: 50px;
+  }
 }
 
 .userName {
@@ -43,7 +51,10 @@ p {
   background-color: snow;
   border: 3px solid #2196f3;
   color: rgb(10, 33, 163);
-  /* margin-right: px; */
+
+  @media screen and (min-width: 480px) {
+    margin-right: 20px;
+  }
 }
 
 .btn,
