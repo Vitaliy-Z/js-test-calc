@@ -25,6 +25,10 @@ p {
   height: 100px;
 }
 
+.userName .text {
+  font-size: 22px;
+}
+
 .text,
 .test .secondaryText {
   margin-bottom: 10px;
@@ -38,12 +42,14 @@ p {
 
 .userName .name,
 .number {
+  margin-right: 5px;
+
+  font-size: 18px;
+
   text-align: center;
   background-color: snow;
   border: 3px solid #2196f3;
   color: rgb(10, 33, 163);
-
-  margin-right: 5px;
 }
 
 .btn,
