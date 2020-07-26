@@ -1,0 +1,84 @@
+body {
+  background-color: #f5f4fa;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-bottom: 40px;
+  width: 370px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.userName,
+.plus,
+.minus,
+.multiply,
+.split {
+  margin-bottom: 30px;
+}
+
+.userName {
+  height: 100px;
+}
+
+.text,
+.test .secondaryText {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.userName .name,
+.number {
+  text-align: center;
+  background-color: snow;
+  border: 3px solid #2196f3;
+  color: rgb(10, 33, 163);
+  /* margin-right: px; */
+}
+
+.btn,
+.btnReset {
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.textResult {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+
+.test .titleText {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.test .secondaryText {
+  font-weight: normal;
+}
+
+.test .btn:not(:last-child) {
+  margin-right: 10px;
+}

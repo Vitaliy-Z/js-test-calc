@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="userName">
+        <p class="text">Введите свое имя:</p>
+        <label>
+          <input class="name" type="text" />
+          <button class="btn">OK</button>
+          <p class="result"></p>
+        </label>
+      </div>
+      <div class="plus">
+        <p class="text">Сколько будет 11 + 25 ?</p>
+        <label>
+          <input class="number" type="number" />
+          <button class="btn">Проверить</button>
+          <button class="btnReset">Попробовать еще!</button>
+          <p class="textResult">Результат: <span class="result">-</span></p>
+        </label>
+      </div>
+      <div class="minus">
+        <p class="text">Сколько будет 22 - 15 ?</p>
+        <label>
+          <input class="number" type="number" />
+          <button class="btn">Проверить</button>
+          <button class="btnReset">Попробовать еще!</button>
+          <p class="textResult">Результат: <span class="result">-</span></p>
+        </label>
+      </div>
+      <div class="multiply">
+        <p class="text">Сколько будет 7 * 8 ?</p>
+        <label>
+          <input class="number" type="number" />
+          <button class="btn">Проверить</button>
+          <button class="btnReset">Попробовать еще!</button>
+          <p class="textResult">Результат: <span class="result">-</span></p>
+        </label>
+      </div>
+      <div class="split">
+        <p class="text">Сколько будет 18 / 3 ?</p>
+        <label>
+          <input class="number" type="number" />
+          <button class="btn">Проверить</button>
+          <button class="btnReset">Попробовать еще!</button>
+          <p class="textResult">Результат: <span class="result">-</span></p>
+        </label>
+      </div>
+      <div class="test">
+        <p class="titleText">Теперь твоя очередь задавть вопрос =)</p>
+        <p class="text">Введи два числа:</p>
+        <label>
+          <input class="number" type="number" data-valueNamberOne />
+          <input class="number" type="number" data-valueNamberTwo />
+          <p class="secondaryText">Что нужно сделать?</p>
+          <button class="btn" data-plus>Прибавить</button>
+          <button class="btn" data-minus>Отнять</button>
+          <button class="btn" data-multiply>Умножить</button>
+          <button class="btn" data-split>Разделить</button>
+          <p class="textResult">Результат: <span class="result">-</span></p>
+        </label>
+      </div>
+    </div>
+    <script src="./test.js"></script>
+  </body>
+</html>
